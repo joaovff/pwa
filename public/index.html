@@ -26,8 +26,45 @@
     -->
     <title>React App</title>
   </head>
-  <body>
+  <body style="background-color: rgb(255, 255, 255)">
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div
+      class="container"
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      "
+    >
+      <h1
+        class="text-center"
+        style="
+          color: rgb(0, 0, 0);
+          text-shadow: 2px 3px rgb(231, 231, 231);
+          font-size: 4rem;
+        "
+      >
+        Install the APP
+      </h1>
+      <div class="add-to">
+        <button
+          class="add-to-btn"
+          style="
+            border: 0;
+            background-color: rgb(255, 255, 255);
+            font-size: 1.5rem;
+            padding: 25px;
+            border-radius: 6px; 
+            box-shadow: 3px 4px rgb(216, 216, 216);
+          "
+        >
+          Add to home screen
+        </button>
+      </div>
+    </div>
+
     <div id="root"></div>
     <!--
       This HTML file is a template.
